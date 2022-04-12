@@ -64,16 +64,16 @@
 		bindings = <
 		&kp ESC &kp N7 &kp N8 &kp N9 &kp BKSP						&sk LCTRL &kp HOME  &kp PG_UP  &kp END  &kp BKSP 
 		&kp TAB &kp N4 &kp N5 &kp N6 &kp ENTER			       	&kp LEFT &kp DOWN &kp UP &kp RIGHT &kp ENTER 
-		&kp TILDE &kp N1 &kp N2 &kp N3 &trans				        &trans &kp INS  &kp PG_DN &kp DEL &trans 
+		&kp TILDE &kp N1 &kp N2 &kp N3 &trans				        &sk LSHIFT &kp INS  &kp PG_DN &kp DEL &trans 
           				&to 0  &kp N0  				&kp SPC &to 3
 		>;
 		};
 
 		functional_layer {
 		bindings = <
-		&kp ESC &kp F9 &kp F10 &kp F11 &kp F12						&trans &kp HOME  &kp PG_UP  &kp END  &kp BKSP 
-		&kp TAB &kp F5 &kp F6 &kp F7 &kp F8			       	&kp LEFT &kp UP &kp DOWN &kp RIGHT &kp ENTER 
-		&kp TILDE &kp F1 &kp F2 &kp F3 &kp F4				        &trans &kp INS  &kp PG_DN &kp DEL &trans 
+		&kp ESC &kp F9 &kp F10 &kp F11 &kp F12						&sk LCTRL &kp HOME  &kp PG_UP  &kp END  &kp BKSP 
+		&kp TAB &kp F5 &kp F6 &kp F7 &kp F8			       	&kp LEFT &kp DOWN &kp UP &kp RIGHT &kp ENTER 
+		&kp TILDE &kp F1 &kp F2 &kp F3 &kp F4				        &sk LSHIFT &kp INS  &kp PG_DN &kp DEL &trans 
           				&to 0  &sk LCTRL 				&sk LSHIFT &kp LALT
 		>;
 		};
